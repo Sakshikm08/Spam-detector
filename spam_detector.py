@@ -10,8 +10,7 @@ from collections import defaultdict
 import math
 
 
-# ── Training Data ──────────────────────────────────────────────────────────
-# Small built-in dataset (spam vs ham)
+
 TRAINING_DATA = [
     # SPAM
     ("Free entry in 2 a weekly competition to win FA Cup final tkts! Text FA to 87121", "spam"),
