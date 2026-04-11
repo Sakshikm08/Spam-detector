@@ -74,7 +74,7 @@ TRAINING_DATA = [
 ]
 
 
-# ── Naive Bayes Classifier ─────────────────────────────────────────────────
+
 
 class SpamDetector:
     def __init__(self):
