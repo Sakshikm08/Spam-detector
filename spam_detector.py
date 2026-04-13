@@ -223,7 +223,7 @@ def main():
         result = detector.predict(msg)
         print_result(msg, result)
 
-    # Interactive mode
+    
     print("\n" + "=" * 55)
     print("INTERACTIVE MODE — Type your own messages")
     print("Type 'quit' to exit | 'stats' for model info")
