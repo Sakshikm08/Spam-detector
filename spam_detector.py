@@ -142,7 +142,7 @@ class SpamDetector:
 
         label = "SPAM" if spam_confidence > 0.5 else "HAM"
 
-        # Find top suspicious words
+        
         suspicious_words = []
         for token in tokens:
             spam_count = self.spam_word_counts.get(token, 0)
