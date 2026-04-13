@@ -173,7 +173,7 @@ class SpamDetector:
         }
 
 
-# ── Main Program ───────────────────────────────────────────────────────────
+
 
 def print_result(message: str, result: dict):
     label = result["label"]
