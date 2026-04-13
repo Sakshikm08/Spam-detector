@@ -131,7 +131,7 @@ class SpamDetector:
             log_prob_spam += math.log(spam_likelihood)
             log_prob_ham += math.log(ham_likelihood)
 
-        # Convert to probabilities
+        
         max_log = max(log_prob_spam, log_prob_ham)
         prob_spam = math.exp(log_prob_spam - max_log)
         prob_ham = math.exp(log_prob_ham - max_log)
