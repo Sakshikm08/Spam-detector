@@ -202,7 +202,7 @@ def main():
     detector = SpamDetector()
     detector.train(TRAINING_DATA)
 
-    # Test on sample messages
+    
     test_messages = [
         "Congratulations! You've won a $1000 prize. Claim now!",
         "Hey, are you free for lunch tomorrow?",
