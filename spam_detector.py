@@ -12,7 +12,7 @@ import math
 
 
 TRAINING_DATA = [
-    # SPAM
+    
     ("Free entry in 2 a weekly competition to win FA Cup final tkts! Text FA to 87121", "spam"),
     ("WINNER!! You have been selected to receive a $1000 gift card. Call now!", "spam"),
     ("Congratulations! You've won a free iPhone. Click here to claim now!", "spam"),
