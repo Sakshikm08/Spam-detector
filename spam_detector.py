@@ -198,7 +198,6 @@ def main():
     print("=" * 55)
     print()
 
-    # Train the model
     print("Training model...")
     detector = SpamDetector()
     detector.train(TRAINING_DATA)
