@@ -92,7 +92,7 @@ class SpamDetector:
         text = re.sub(r'\b\d+\b', 'NUMBER', text)
         text = re.sub(r'[^a-z0-9\s]', ' ', text)
         tokens = text.split()
-        # Remove very short words
+        
         tokens = [t for t in tokens if len(t) > 1]
         return tokens
 
