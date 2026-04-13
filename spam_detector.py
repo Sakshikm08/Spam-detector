@@ -39,7 +39,7 @@ TRAINING_DATA = [
     ("Hi babe I want to meet you. Text MEET to 69911 to find local singles.", "spam"),
     ("SMS: We are trying to contact you. Last chance to claim your £150 award", "spam"),
 
-    # HAM
+    
     ("Hey, are you coming to the party tonight?", "ham"),
     ("I'll be there in 10 minutes, just finishing up at work.", "ham"),
     ("Can you pick up some milk on your way home?", "ham"),
